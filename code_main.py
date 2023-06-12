@@ -31,7 +31,7 @@ with profile:
 with dataset:
     st.write("""# Dataset """)
     df = pd.read_csv(
-        'https://raw.githubusercontent.com/jennamacwe/Pendata/main/Dataset%20-%20Kidney%20Stone%20Prediction.csv')
+        'https://raw.githubusercontent.com/jennamacwe/UAS-PENDATA/main/Dataset%20-%20Kidney%20Stone%20Prediction.csv')
     st.dataframe(df)
 
     st.write("""# Deskripsi Dataset """)
